@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI Kalkulačka</string>
+
+    <!-- Hlavní obrazovka -->
+    <string name="title_main">Výpočet BMI</string>
+    <string name="subtitle_main">Zadejte svou výšku a hmotnost</string>
+    <string name="label_height">Výška</string>
+    <string name="label_weight">Hmotnost</string>
+    <string name="hint_height">Výška (cm)</string>
+    <string name="hint_weight">Hmotnost (kg)</string>
+    <string name="btn_calculate">Spočítat BMI</string>
+    <string name="result_placeholder">Výsledek se zobrazí zde.</string>
+    <string name="desc_info">Zobrazit přehled kategorií BMI</string>
+
+    <!-- Chybové hlášky -->
+    <string name="error_empty">Vyplňte všechny údaje!</string>
+    <string name="error_invalid">Zadejte platné číslo!</string>
+    <string name="error_not_positive">Hodnota musí být větší než nula!</string>
+
+    <!-- Výsledek: %1$s = hodnota BMI, %2$s = slovní hodnocení -->
+    <string name="bmi_result">Vaše BMI: %1$s\nHodnocení: %2$s</string>
+
+    <!-- Obrazovka s kategoriemi -->
+    <string name="title_categories">Kategorie BMI</string>
+    <string name="categories_intro">Rozdělení hodnot BMI podle Světové zdravotnické organizace (WHO).</string>
+    <string name="table_header_icon">Ikona</string>
+    <string name="table_header_category">Kategorie</string>
+    <string name="table_header_range">BMI</string>
+    <string name="categories_formula">BMI = hmotnost (kg) / výška (m)²</string>
+    <string name="btn_back">Zpět</string>
+    <string name="desc_category_icon">Ikona kategorie %1$s</string>
+</resources>

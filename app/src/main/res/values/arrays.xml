@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Slovní hodnocení kategorií BMI (stejné pořadí ve všech polích). -->
+    <string-array name="bmi_categories">
+        <item>Podváha</item>
+        <item>Normální hmotnost</item>
+        <item>Nadváha</item>
+        <item>Obezita I. stupně</item>
+        <item>Obezita II. stupně</item>
+        <item>Obezita III. stupně</item>
+    </string-array>
+
+    <!-- Rozsahy hodnot BMI pro jednotlivé kategorie. -->
+    <string-array name="bmi_ranges">
+        <item>&lt; 18,5</item>
+        <item>18,5 – 24,9</item>
+        <item>25,0 – 29,9</item>
+        <item>30,0 – 34,9</item>
+        <item>35,0 – 39,9</item>
+        <item>≥ 40,0</item>
+    </string-array>
+
+    <!-- Ikony kategorií. -->
+    <array name="bmi_icons">
+        <item>@drawable/ic_cat_underweight</item>
+        <item>@drawable/ic_cat_normal</item>
+        <item>@drawable/ic_cat_overweight</item>
+        <item>@drawable/ic_cat_obesity1</item>
+        <item>@drawable/ic_cat_obesity2</item>
+        <item>@drawable/ic_cat_obesity3</item>
+    </array>
+
+    <!-- Barvy kategorií. -->
+    <array name="bmi_colors">
+        <item>@color/cat_underweight</item>
+        <item>@color/cat_normal</item>
+        <item>@color/cat_overweight</item>
+        <item>@color/cat_obesity1</item>
+        <item>@color/cat_obesity2</item>
+        <item>@color/cat_obesity3</item>
+    </array>
+</resources>
